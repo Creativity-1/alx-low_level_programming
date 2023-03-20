@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
 *main - Entry point
-*Decription:'prints the lowercase alphabet in reverse'
+*Decription:'print comb of numbers'
 *Return: Always 0
 */
 int main(void)
 {
-	int n = 122;
+	int n;
 
-	while (n >= 97)
+	for (n = 48; n <= 57; n++)
 	{
 		putchar(n);
-		n--;
+		putchar(',');
+		putchar(',');
 	}
 	putchar('\n');
 	return (0);
